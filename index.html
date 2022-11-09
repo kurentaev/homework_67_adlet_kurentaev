@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .element {
+          position: relative;
+          background-color: #fefefe;
+          margin: auto;
+          padding: 0;
+          border: 1px solid #888;
+          width: 50%;
+          margin-bottom: 20px;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+          -webkit-animation-name: animatetop;
+          -webkit-animation-duration: 0.4s;
+          animation-name: animatetop;
+          animation-duration: 0.4s
+        }
+        .close {
+          color: white;
+          float: right;
+          font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+        .content {
+          font-size: 20px;
+          padding: 20px 16px;
+          background-color: #5cb85c;
+          color: white;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <input style="font-size: 30px" id="add-item-btn" type="button" value="+" onclick="modalWindow()">
+</div>
+<script src="./js/main.js"></script>
+</body>
+</html>
