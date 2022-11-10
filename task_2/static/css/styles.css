@@ -1,15 +1,9 @@
 body{
     background: #0c2612;
 }
+
 .card{
     background: #0c2612;
-}
-header img{
-    height: 100px;
-}
-
-.gif-spinner img{
-    width: 40px;
 }
 
 .img{
@@ -32,18 +26,12 @@ header img{
     display: block;
 }
 
-hr{
-    background-color: white;
-}
-
-span{
-    font-weight: lighter;
-}
 .names{
     font-size: 40px;
     text-decoration: none;
     color: white;
 }
+
 .logo {
     margin-top: 50px;
     display: block;
