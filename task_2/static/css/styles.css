@@ -4,11 +4,17 @@ body{
 
 .card{
     background: #0c2612;
+    border: none;
 }
 
 .img{
     width: 100%;
     height: 300px;
+    border-radius: 5%;
+}
+
+.img-fluid{
+    border-radius: 5%;
 }
 
 .info-display{
@@ -24,6 +30,7 @@ body{
 
 .img-info:hover > .info-display{
     display: block;
+    border-radius: 5%;
 }
 
 .names{
